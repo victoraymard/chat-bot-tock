@@ -49,6 +49,7 @@
     <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
 
 
@@ -70,7 +71,7 @@
 
 <style>
 body {
-olor: black;
+color: black;
     background-color: white;
     background-image: url(assets/images/Carte1.png);
     /* background-position: center 0%; */
@@ -80,12 +81,23 @@ olor: black;
   </head>
   <body>
 
+    <div id="sam-logo"></div>
+
+    <div id="sam-text">
+        <hgroup class="speech-bubble">
+            <h3>Sam Le bot</h3>
+            <p>Hello, savais tu que nous roulons à plus de 250km/h et qu'à ce rythme nous serions à New York dans ...</p>
+        </hgroup>
+    </div>
+
     <div id="app" style="width: 30%;
     height: 50%;
     position: relative;
     left: 70%;
     margin-top: 122px;
-    padding-right: 22px;"></div>
+    padding-right: 22px;">
+        
+    </div>
    
     <!--  
     JavaScripts
@@ -106,8 +118,14 @@ olor: black;
     <script src="assets/js/main.js"></script>
 
 
-
 <script>
+
+
+$("#app").hide();
+  $('#sam-text').click(function() {
+    $("#app").show();
+    $('#sam-text').hide();
+});
 
     TockReact.renderChat(
 
@@ -115,7 +133,7 @@ olor: black;
 
         //Set your web connector url here
 
-        'https://demo-bot.tock.ai/io/christophenguyen79/new_assistant/web',
+        'https://demo-bot.tock.ai/io/xavierdecazenove/test1727/web',
 
         //options: https://github.com/theopenconversationkit/tock-react-kit/blob/master/src/TockTheme.ts
 

@@ -2,7 +2,7 @@ const { Bot } = require('tock-node');
 
  
 
-const bot = new Bot('4d14a95a-1182-483f-8b6a-1e7756d9f8c0', 'https://demo-bot.tock.ai/io/christophenguyen79/new_assistant/web');
+const bot = new Bot('7282df31-ec40-4492-ae09-204ac11507eb', 'https://demo-bot.tock.ai/io/xavierdecazenove/test1727/web');
 
  
 
@@ -30,3 +30,4 @@ bot.addStory('reponseoui', bot => {
     send('il pleut');
 
   });
+

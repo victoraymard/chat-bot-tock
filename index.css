@@ -1,0 +1,71 @@
+div#app {
+	height: 70%;
+
+}
+
+div#app > div  {
+	padding: 0.5em;
+	border-radius: 10px;
+	background-color: #0088CE;
+	background-image: none;
+}
+
+div#app > div > form {
+	display: table;
+}
+
+div#sam-logo {
+      width: 100px;
+      height: 100px;
+      background: #0088CE;
+      border-radius: 50%;
+
+	position: absolute;
+	left: 65%;
+	bottom: 20%;
+}
+
+div#sam-text {
+
+      width: 300px;
+      height: 100px;
+
+	position: absolute;
+	left: 73%;
+	bottom: 20%;
+
+	cursor: pointer;
+}
+
+
+
+.speech-bubble {
+	position: relative;
+	background: white;
+	border-radius: .4em;
+
+	padding: 0.5rem ;
+}
+
+.speech-bubble h3 {
+	margin-top: 0;
+}
+.speech-bubble p {
+	margin-bottom: 0;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: white;
+	border-left: 0;
+	border-top: 0;
+	margin-top: -10px;
+	margin-left: -20px;
+}
+
