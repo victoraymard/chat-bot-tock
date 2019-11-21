@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "tock-node": "0.1.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
