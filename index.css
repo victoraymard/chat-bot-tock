@@ -8,10 +8,11 @@ color: black;
 }
 
 div#app {
-	width: 30%;
-    height: 60%;
+	width: 42%;
+    height: 80%;
     position: relative;
-    left: 70%;
+    left: 51%;
+    bottom: 7%;
     margin-top: 122px;
     padding-right: 22px;
 }
@@ -31,8 +32,9 @@ div#sam-logo {
       width: 100px;
       height: 100px;
 	position: absolute;
-	left: 65%;
-	bottom: 10%;
+	left: 45%;
+	bottom: 30%;
+	z-index: 2;
 	background-image: url('imageTrain/other_img/logo-3-notifs-removebg-preview.png');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -46,8 +48,8 @@ div#sam-text {
       height: 100px;
 
 	position: absolute;
-	left: 73%;
-	bottom: 10%;
+	left: 53%;
+	bottom: 26%;
 
 	cursor: pointer;
 }
