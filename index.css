@@ -1,6 +1,19 @@
-div#app {
-	height: 70%;
 
+body {
+color: black;
+    background-color: white;
+    background-image: url(assets/images/Carte1.png);
+    /* background-position: center 0%; */
+    background-size: cover;
+}
+
+div#app {
+	width: 30%;
+    height: 60%;
+    position: relative;
+    left: 70%;
+    margin-top: 122px;
+    padding-right: 22px;
 }
 
 div#app > div  {
@@ -17,12 +30,14 @@ div#app > div > form {
 div#sam-logo {
       width: 100px;
       height: 100px;
-      background: #0088CE;
-      border-radius: 50%;
-
 	position: absolute;
 	left: 65%;
-	bottom: 20%;
+	bottom: 10%;
+	background-image: url('imageTrain/other_img/logo-3-notifs-removebg-preview.png');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 div#sam-text {
@@ -32,7 +47,7 @@ div#sam-text {
 
 	position: absolute;
 	left: 73%;
-	bottom: 20%;
+	bottom: 10%;
 
 	cursor: pointer;
 }
